@@ -1,0 +1,114 @@
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 150;
+    font-style: normal;
+    
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    padding: top 20px;
+    margin-top: 20px;
+    float: right;
+}
+
+ul li a {
+    list-style: none;
+    padding: 10px 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+}
+
+.titre {
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(183, 18, 18);
+    font-size: 70px;
+    margin-bottom: 20%;
+}
+
+.aperitif {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.aperitif2  {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-weight: 500px;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-top: 400px;
+    padding-left: 250px;
+    text-decoration: underline;
+    color: orange;
+
+}
+
+/*Des entrées raffraichissantes*/
+
+.plats{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.plats2{
+    position: absolute;
+    top: 95%;
+    left: 12%;
+    transform: translate(-30%, -30%);
+    font-weight: 600px;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-left: 500px;
+    text-decoration: underline;
+    color: rgb(255, 157, 0);
+
+}
+
+/*Des plats qui decuperont vos papilles*/
+.text{
+    width: 170px;
+    text-align: justify;
+}
+
+
+.desserts{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.desserts2{
+     position: absolute;
+     top: 160%;
+     left: 10%;
+     transform: translate(-60%S, 60%);
+     font-weight: 400px;
+     font-size: 40px;
+     text-transform: uppercase;
+     margin-top: 75px;
+     margin-left: 500px;
+     text-decoration: underline;
+     color: orange;
+
+}
+/*Des desserts qui vous ferez voyager*/
